@@ -20,6 +20,7 @@
   - length (distance)
   - type (sprint/distance/mid)
   - type (anerobic/aerobic)
+  - stroke
 - Create a "dry land" workout
   - intensity
   - length (time)
