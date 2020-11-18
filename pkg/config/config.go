@@ -13,8 +13,10 @@ var envMap = map[string]string{
 
 //Config is the general struct for app configuration
 type Config struct {
-	Port     string       `json:"port"`
-	LogLevel logrus.Level `json:"log-level"`
+	Port          string       `json:"port"`
+	Database      string       `json:"database"`
+	SetCollection string       `json:"setCollection"`
+	LogLevel      logrus.Level `json:"log-level"`
 }
 
 //Accessor is the interface setup for any configuration accessor
